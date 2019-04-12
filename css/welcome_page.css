@@ -12,8 +12,8 @@ font-family: 'Lato', sans-serif;
 
 body {
     margin: auto;
-    align-items: center;
-    justify-content: center;
+    width: 500px;
+
 }
 
 @keyframes show {
