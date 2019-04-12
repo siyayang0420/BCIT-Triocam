@@ -1,2 +1,2 @@
 # BCIT-Triocam
-An Camera learning app 
+An Camera learning app
