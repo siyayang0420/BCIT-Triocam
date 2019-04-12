@@ -1,0 +1,14 @@
+/*-----TABLE OF CONTENT-----*/
+
+body {
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#btn_selected_a,
+#btn_selected_ss,
+#btn_selected_iso {
+    visibility: hidden;
+}
