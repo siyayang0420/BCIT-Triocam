@@ -1,5 +1,6 @@
 var nextBut = document.querySelector('#next_button'),
     prevBut = document.querySelector('#prev_button'),
+    tryBut = document.querySelector('#try_button'),
     page1 = document.querySelector('#page_1'),
     page2 = document.querySelector('#page_2'),
     page3 = document.querySelector('#page_3');
@@ -20,6 +21,7 @@ function nextPage() {
   page1.style.display = "none";
   prevBut.style.display = "block";
   nextBut.style.display = "none";
+  tryBut.style.display = "block";
 }
 };
 
@@ -29,12 +31,15 @@ function prevPage() {
   n = n - 1;
   page2.style.display = "block";
   page3.style.display = "none";
+  tryBut.style.display = "none";
+  nextBut.style.display = "block";
 } else if(p == 2){
   p = p + 1;
   page1.style.display = "block";
   page2.style.display = "none";
   page3.style.display = "none";
-  nextBut.style.display = "block",
+  nextBut.style.display = "block";
+  tryBut.style.display = "none";
   prevBut.style.display = "none";
 }
 };
