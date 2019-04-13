@@ -2,13 +2,18 @@
   display: none;
 }
 
-#prev_button {
+#prev_button, #try_button {
+  display: none;
+}
+
+#ham_menu {
   display: none;
 }
 
 body{
-  margin: auto;
-  width: 500px;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
 }
 
 .ham {
