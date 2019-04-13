@@ -58,3 +58,13 @@ body{
     opacity: 1;
     transition-duration: 0.8s;
 }
+
+.buttons{
+  opacity: 1;
+  transition-duration: 0.5s;
+}
+
+.btn_hide {
+  opacity: 0;
+  transition-duration: 0.5s;
+}
