@@ -138,17 +138,19 @@ input[type=range].iso_thumb::-webkit-slider-thumb {
   transition-duration: 0.2s;
 }
 
+.menu_list{
+
+}
 #icon_warning {
   opacity: 0;
+
 }
 
 .menu_show {
   opacity: 1;
   transition-duration: 0.8s;
 }
-.st1{
-  font-style: font-family: 'Lato', sans-serif;
-}
+
 
 .img2,
 .img3,
