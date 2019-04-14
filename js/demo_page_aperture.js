@@ -54,7 +54,7 @@ var pop_up = document.querySelector("#pop_up");
 
 function changeImgUI(val, type) {
     if (type == "img_num" && val == 1) {
-        pop_up.style.opacity = "1";
+        pop_up.style.opacity = "0";
         img1.style.opacity = "1";
         img2.style.opacity = "0";
         img3.style.opacity = "0";
