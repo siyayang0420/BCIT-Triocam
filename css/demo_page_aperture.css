@@ -56,7 +56,7 @@ input[type=range]::-webkit-slider-thumb {
   margin-top: -15px;
 }
 
-input[type=range].ss_numb::-webkit-slider-runnable-track {
+input[type=range].ss_thumb::-webkit-slider-runnable-track {
   margin-top: 10px;
   width: 80%;
   height: 10px;
@@ -65,13 +65,13 @@ input[type=range].ss_numb::-webkit-slider-runnable-track {
   border-radius: 10px;
 }
 
-input[type=range].ss_n::-webkit-slider-thumb {
+input[type=range].ss_thumb::-webkit-slider-thumb {
   -webkit-appearance: none;
   border: none;
   height: 40px;
   width: 40px;
   border-radius: 50%;
-  background: #d55252;
+  background: #dd9f9e;
   margin-top: -15px;
 }
 
