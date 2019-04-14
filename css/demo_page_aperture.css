@@ -46,7 +46,6 @@ input[type=range]::-webkit-slider-runnable-track {
   border-radius: 10px;
 }
 
-
 input[type=range]::-webkit-slider-thumb {
   -webkit-appearance: none;
   border: none;
@@ -54,6 +53,25 @@ input[type=range]::-webkit-slider-thumb {
   width: 40px;
   border-radius: 50%;
   background: #a0c2e7;
+  margin-top: -15px;
+}
+
+input[type=range].ss_numb::-webkit-slider-runnable-track {
+  margin-top: 10px;
+  width: 80%;
+  height: 10px;
+  border: none;
+  background-color:#d55252;
+  border-radius: 10px;
+}
+
+input[type=range].ss_n::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: none;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background: #d55252;
   margin-top: -15px;
 }
 
