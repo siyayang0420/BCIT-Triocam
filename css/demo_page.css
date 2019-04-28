@@ -22,7 +22,7 @@ body {
   align-items: center;
 }
 
-#slider {
+.slider {
   z-index: 90;
   position: relative;
   display: flex;
@@ -31,12 +31,12 @@ body {
   margin-top: -12%;
 }
 
-#backBtn {
+.backBtn {
   transition: all 0.3s ease-in-out;
   transform-origin: 90% 55%;
 }
 
-#homeBtn{
+.homeBtn{
   transition: all 0.3s ease-in-out;
   transform-origin: 8% 56%;
 }
@@ -49,7 +49,7 @@ body {
   transform: rotate(-20deg);
 }
 
-#aperBtn:hover{
+.iconBtn:hover{
   cursor: pointer;
 }
 

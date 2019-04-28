@@ -1,12 +1,12 @@
 
-var slider = document.querySelector("#slider");
+var slider = document.querySelector(".slider");
 var input = document.querySelector("input");
 
-var backBtn =  document.querySelector("#backBtn");
-var homeBtn =  document.querySelector("#homeBtn");
+var backBtn =  document.querySelector(".backBtn");
+var homeBtn =  document.querySelector(".homeBtn");
 function showMenu() {
  backBtn.classList.toggle("backBtnMove");
- homeBtn.classList.toggle("homeBtnMove")
+ homeBtn.classList.toggle("homeBtnMove");
 }
 
 var pkg = {
