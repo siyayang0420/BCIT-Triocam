@@ -1,19 +1,12 @@
-var ham = document.querySelector(".ham");
-var ham_1 = document.querySelector(".ham_1");
-var ham_2 = document.querySelector(".ham_2");
-var ham_3 = document.querySelector(".ham_3");
-var menu_list = document.querySelector(".menu_list");
-var slider = document.querySelector("#slider");
-var input = document.querySelector("input");
-var img1 = document.querySelector("#img1");
 
+var slider = document.querySelector(".slider");
+var input = document.querySelector("input");
+
+var backBtn =  document.querySelector(".backBtn");
+var homeBtn =  document.querySelector(".homeBtn");
 function showMenu() {
-  ham.className = "ham_animate";
-  ham_1.classList.toggle("ham_1_animate");
-  ham_2.classList.toggle("ham_2_animate");
-  ham_3.classList.toggle("ham_3_animate");
-  menu_list.classList.toggle("menu_show");
-  slider.classList.toggle("slide_show");
+ backBtn.classList.toggle("backBtnMove");
+ homeBtn.classList.toggle("homeBtnMove");
 }
 
 var pkg = {
@@ -32,14 +25,13 @@ var proxyPkg = new Proxy(pkg, handle);
 
 //=====stat func
 
-var img = document.querySelector(".img");
-var img7 = document.querySelector(".img7");
-var img6 = document.querySelector(".img6");
-var img5 = document.querySelector(".img5");
-var img4 = document.querySelector(".img4");
-var img3 = document.querySelector(".img3");
-var img2 = document.querySelector(".img2");
-var img1 = document.querySelector(".img1");
+var img7 = document.querySelector("#img7");
+var img6 = document.querySelector("#img6");
+var img5 = document.querySelector("#img5");
+var img4 = document.querySelector("#img4");
+var img3 = document.querySelector("#img3");
+var img2 = document.querySelector("#img2");
+var img1 = document.querySelector("#img1");
 
 function changeImg(el) {
   proxyPkg.img_num = el.value;
@@ -49,8 +41,6 @@ function changeImg(el) {
 
 
 //=====ui func
-var icon_warning = document.querySelector("#icon_warning");
-var pop_up = document.querySelector("#pop_up");
 
 function changeImgUI(val, type) {
   if (type == "img_num" && val == 1) {
