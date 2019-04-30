@@ -14,15 +14,15 @@ body {
   margin: auto;
 }
 
-#page_2, #page_3 {
+#page2, #page3 {
   display: none;
 }
 
-#prev_button, #try_button {
+#arrowLeft {
   display: none;
 }
 
-#ham_menu {
+#hamMenu {
   display: none;
 }
 
