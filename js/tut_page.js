@@ -8,7 +8,6 @@ var n = 1,
     p = 3;
 
 function nextPage() {
-  console.log("hi")
   if(n == 1){
   n = n + 1;
   page2.style.display = "block";
@@ -19,7 +18,7 @@ function nextPage() {
   page2.style.display = "none";
   page1.style.display = "none";
   prevBut.style.display = "block";
-  nextBut.style.display = "none";
+  nextBut.style.display = "block";
 }
 };
 
