@@ -4,10 +4,22 @@ var input = document.querySelector("input");
 
 var backBtn =  document.querySelector(".backBtn");
 var homeBtn =  document.querySelector(".homeBtn");
+var hamBtn = document.querySelector("#ham")
 function showMenu() {
  backBtn.classList.toggle("backBtnMove");
  homeBtn.classList.toggle("homeBtnMove");
+ ham.className = "ham_animate";
+ ham_1.classList.toggle("ham_1_animate");
+ ham_2.classList.toggle("ham_2_animate");
+ ham_3.classList.toggle("ham_3_animate");
 }
+
+
+var ham = document.querySelector(".ham");
+var ham_1 = document.querySelector(".ham_1");
+var ham_2 = document.querySelector(".ham_2");
+var ham_3 = document.querySelector(".ham_3");
+
 
 var pkg = {
   img_num: 1
@@ -49,56 +61,20 @@ function changeImgUI(val, type) {
     img2.style.opacity = "0";
     img3.style.opacity = "0";
     img4.style.opacity = "0";
-    img5.style.opacity = "0";
-    img6.style.opacity = "0";
-    img7.style.opacity = "0";
   } else if (type == "img_num" && val == 2) {
     img2.style.opacity = "1";
     img3.style.opacity = "0";
     img4.style.opacity = "0";
-    img5.style.opacity = "0";
-    img6.style.opacity = "0";
-    img7.style.opacity = "0";
     img1.style.opacity = "0";
   } else if (type == "img_num" && val == 3) {
     img3.style.opacity = "1";
-    img4.style.opacity = "0";
-    img5.style.opacity = "0";
-    img6.style.opacity = "0";
-    img7.style.opacity = "0";
+    img4.style.opacity = "0"
     img1.style.opacity = "0";
     img2.style.opacity = "0";
   } else if (type == "img_num" && val == 4) {
     img4.style.opacity = "1";
-    img5.style.opacity = "0";
-    img6.style.opacity = "0";
-    img7.style.opacity = "0";
     img1.style.opacity = "0";
     img2.style.opacity = "0";
     img3.style.opacity = "0";
-  } else if (type == "img_num" && val == 5) {
-    img5.style.opacity = "1";
-    img6.style.opacity = "0";
-    img7.style.opacity = "0";
-    img1.style.opacity = "0";
-    img2.style.opacity = "0";
-    img3.style.opacity = "0";
-    img4.style.opacity = "0";
-  } else if (type == "img_num" && val == 6) {
-    img6.style.opacity = "1";
-    img7.style.opacity = "0";
-    img1.style.opacity = "0";
-    img2.style.opacity = "0";
-    img3.style.opacity = "0";
-    img4.style.opacity = "0";
-    img1.style.opacity = "0";
-  } else if (type == "img_num" && val == 7) {
-    img7.style.opacity = "1";
-    img1.style.opacity = "0";
-    img2.style.opacity = "0";
-    img3.style.opacity = "0";
-    img4.style.opacity = "0";
-    img1.style.opacity = "0";
-    img6.style.opacity = "0";
   }
 }

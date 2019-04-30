@@ -1,6 +1,37 @@
 body {
-  margin: 0;
   font-style: font-family: 'Lato', sans-serif;
+  width: 500px;
+  margin: auto;
+}
+
+.ham {
+    transition-duration: 0.6s;
+    pointer-events: all;
+    cursor: pointer;
+    transition: transform 0.4s ease-in-out,
+        opacity 0.4s ease-in-out;
+
+}
+
+.ham_1_animate {
+    transform-origin: 95.5% 6%;
+    transition-timing-function: ease-in-out;
+    transform: rotate(-35deg);
+    transition-duration: 0.6s;
+}
+
+.ham_2_animate {
+    transition-timing-function: ease-in-out;
+    opacity: 0;
+    transition-duration: 0.6s;
+}
+
+
+.ham_3_animate {
+    transform-origin: 95.5% 8%;
+    transition-timing-function: ease-in-out;
+    transform: rotate(35deg);
+    transition-duration: 0.6s;
 }
 
 #demo_img {
@@ -13,6 +44,7 @@ body {
   transition-duration: 0.6s;
   top: 0;
   right: 0;
+  cursor: pointer;
 }
 
 #bar {
@@ -31,6 +63,10 @@ body {
   margin-top: -12%;
 }
 
+.sshambg{
+  transform: translateX(20px);
+}
+
 .backBtn {
   transition: all 0.3s ease-in-out;
   transform-origin: 90% 55%;
@@ -42,11 +78,11 @@ body {
 }
 
 .backBtnMove {
-  transform: rotate(20deg);
+  transform: translateY(100px);
 }
 
 .homeBtnMove{
-  transform: rotate(-20deg);
+  transform: translateY(200px);
 }
 
 .iconBtn:hover{
@@ -117,59 +153,8 @@ input[type=range].iso_thumb::-webkit-slider-thumb {
   margin-top: -15px;
 }
 
-#pop_up {
-  opacity: 0;
-}
 
-#icon_correct {
-  visibility: hidden;
-}
 
-.ham {
-  transition-duration: 0.6s;
-  pointer-events: all;
-  cursor: pointer;
-  transition: transform 0.4s ease-in-out,
-    opacity 0.4s ease-in-out;
-}
-
-.ham_1_animate {
-  transform-origin: 95.5% 6%;
-  transition-timing-function: ease-in-out;
-  transform: rotate(-35deg);
-  transition-duration: 0.6s;
-}
-
-.ham_2_animate {
-  transition-timing-function: ease-in-out;
-  opacity: 0;
-  transition-duration: 0.6s;
-}
-
-.ham_3_animate {
-  transform-origin: 95.5% 8%;
-  transition-timing-function: ease-in-out;
-  transform: rotate(35deg);
-  transition-duration: 0.6s;
-}
-
-.menu_list,
-.slide_show,
-#icon_wrong {
-  opacity: 0;
-  transition-duration: 0.2s;
-}
-
-.menu_list {}
-
-#icon_warning {
-  opacity: 0;
-}
-
-.menu_show {
-  opacity: 1;
-  transition-duration: 0.8s;
-}
 
 .img2,
 .img3,

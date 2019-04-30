@@ -8,6 +8,11 @@
 #text_card_1 {
   animation: slideLeft 1.5s ease-in-out;
 }*/
+body {
+  font-style: font-family: 'Lato', sans-serif;
+  width: 500px;
+  margin: auto;
+}
 
 #page_2, #page_3 {
   display: none;
