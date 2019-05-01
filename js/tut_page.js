@@ -19,6 +19,8 @@ function nextPage() {
   page1.style.display = "none";
   prevBut.style.display = "block";
   nextBut.style.display = "block";
+
+  nextBut.style.display = "none";
 }
 };
 
@@ -45,13 +47,11 @@ var ham_2 = document.querySelector(".ham_2");
 var ham_3 = document.querySelector(".ham_3");
 var menu_list = document.querySelector(".menu_list");
 
-var btns = document.querySelector("#buttons");
 function showMenu() {
     ham.className = "ham_animate";
     ham_1.classList.toggle("ham_1_animate");
     ham_2.classList.toggle("ham_2_animate");
     ham_3.classList.toggle("ham_3_animate");
     menu_list.classList.toggle("menu_show");
-    btns.classList.toggle("btn_hide");
 
 }
