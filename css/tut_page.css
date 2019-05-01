@@ -9,9 +9,7 @@
   animation: slideLeft 1.5s ease-in-out;
 }*/
 body {
-  font-style: font-family: 'Lato', sans-serif;
-  width: 500px;
-  margin: auto;
+  margin: 0;
 }
 
 #page2, #page3 {
@@ -22,9 +20,7 @@ body {
   display: none;
 }
 
-#hamMenu {
-  display: none;
-}
+
 
 body{
   margin: 0;
@@ -64,14 +60,14 @@ body{
 
 
 .menu_list{
-    opacity: 0;
+    display: none;
     transition-duration: 0.2s;
+    transform: translateX(450px);
 }
 
-
-
 .menu_show {
-    opacity: 1;
+    display: block;
+    transform:translateX(0px);
     transition-duration: 0.8s;
 }
 
