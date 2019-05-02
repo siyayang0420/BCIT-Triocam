@@ -22,8 +22,18 @@ var ham_3 = document.querySelector(".ham_3");
 
 
 var pkg = {
-  img_num: 1
+  img_num: 1,
+  iso : "",
+  ss : "",
+  aper : ""
 }
+
+var storagePkg = localStorage.getItem("pkg");
+
+if(storagePkg){
+  pkg = JSON.parse(storagePkg);
+}
+
 //=====proxy setup
 var handle = {
   set: function(obj, props, value) {
@@ -45,7 +55,17 @@ var img3 = document.querySelector("#img3");
 var img2 = document.querySelector("#img2");
 var img1 = document.querySelector("#img1");
 
-function changeImg(el) {
+function changeImg(el, type) {
+  if (type == "aper"){
+    pkg.aper = el.value;
+  }
+  else if (type == "iso"){
+    pkg.iso = el.value;
+  }
+  else if (type == "ss"){
+    pkg.ss = el.value;
+  }
+  localStorage.setItem("pkg", JSON.stringify(pkg))
   proxyPkg.img_num = el.value;
 }
 
@@ -77,4 +97,8 @@ function changeImgUI(val, type) {
     img2.style.opacity = "0";
     img3.style.opacity = "0";
   }
+
+
 }
+
+console.log(pkg);
