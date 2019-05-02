@@ -18,7 +18,7 @@ function nextPage() {
   page2.style.display = "none";
   page1.style.display = "none";
   prevBut.style.display = "block";
-  nextBut.style.display = "block";
+  nextBut.style.display = "none";
 }
 };
 
