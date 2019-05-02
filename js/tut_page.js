@@ -19,8 +19,6 @@ function nextPage() {
   page1.style.display = "none";
   prevBut.style.display = "block";
   nextBut.style.display = "block";
-
-  nextBut.style.display = "none";
 }
 };
 
@@ -37,7 +35,6 @@ function prevPage() {
   page2.style.display = "none";
   page3.style.display = "none";
   nextBut.style.display = "block";
-  prevBut.style.display = "none";
 }
 };
 
