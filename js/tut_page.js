@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 
 var ap1 = document.querySelector("#ap1"),
@@ -11,13 +11,13 @@ var ap1 = document.querySelector("#ap1"),
     ang3 = document.querySelector("#ang3"),
     ang4 = document.querySelector("#ang4");
 
-=======
+
 var card = document.querySelector("#whiteCard");
 
 function cardShow(){
   card.classList.toggle("cardShow");
 }
->>>>>>> 007645486f96626fd80a253b1dd22a98f184f243
+
 
 var nextBut = document.querySelector('#arrowRight'),
     prevBut = document.querySelector('#arrowLeft'),
@@ -172,13 +172,13 @@ function changeImgUI(val, type){
   }
 
   if (type == "iso" && val == 1) {
-    isoImg.style.opacity = "0"
-  } else if (type == "iso" && val == 2) {
-    isoImg.style.opacity = "0.5"
-  } else if(type == "iso" & val == 3) {
-    isoImg.style.opacity = "0.7"
-  } else if(type == "iso" & val == 4) {
     isoImg.style.opacity = "1"
+  } else if (type == "iso" && val == 2) {
+    isoImg.style.opacity = "0.7"
+  } else if(type == "iso" & val == 3) {
+    isoImg.style.opacity = "0.5"
+  } else if(type == "iso" & val == 4) {
+    isoImg.style.opacity = "0"
   }
 
 

@@ -116,9 +116,17 @@ body {
   transform: translateY(-510px);
   display: block;
   opacity: 1;
+  transition: 0.3s ease-in;
 
 }
 
+.menuTxt{
+  opacity: 0.5
+}
+.menuTxt:hover{
+  opacity: 1;
+  cursor: pointer;
+}
 
 image{
   opacity: 0;

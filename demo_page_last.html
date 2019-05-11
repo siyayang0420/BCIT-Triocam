@@ -420,10 +420,18 @@
       <path class="st13" d="M168,0h581.2v1333.6H168c-34.8,0-63-28.2-63-63V63C105,28.2,133.2,0,168,0z" />
       <rect x="105" y="250" class="st14" width="644" height="144.6" />
       <rect x="293.6" y="492.3" class="st15" width="268.6" height="73.7" />
-      <text transform="matrix(1 0 0 1 311.4218 542.083)" class="st3 st4 st16">Aperture</text>
-      <text transform="matrix(1 0 0 1 248.1453 698.3612)" class="st3 st4 st16">Shutter Speed</text>
-      <text transform="matrix(1 0 0 1 380.4406 841.3431)" class="st3 st4 st16">ISO</text>
-      <text transform="matrix(1 0 0 1 350.469 341.9183)" class="st0 st4 st16">Home</text>
+      <a href="aper_info_page.html">
+        <text transform="matrix(1 0 0 1 311.4218 542.083)" class="st3 st4 st16 menuTxt">Aperture</text>
+      </a>
+      <a href="shutterspeed_info_page.html">
+        <text transform="matrix(1 0 0 1 248.1453 698.3612)" class="st3 st4 st16 menuTxt">Shutter Speed</text>
+      </a>
+      <a href="iso_info_page.html">
+        <text transform="matrix(1 0 0 1 380.4406 841.3431)" class="st3 st4 st16 menuTxt">ISO</text>
+      </a>
+      <a href="menu_page.html">
+        <text transform="matrix(1 0 0 1 350.469 341.9183)" class="st0 st4 st16 menuTxt">Home</text>
+      </a>
     </g>
     <g id="ham" class="ham" onclick="showMenu()">
 
@@ -466,9 +474,9 @@
   </svg>
 
   <div id="inputSliders">
-  <input type="range" name="" min="1" value="" max="4" class="ap" oninput="changeImg(this, 'aper')">
-  <input type="range" name="" min="1" max="4" class="ss" oninput="changeImg(this, 'ss')">
-  <input type="range" name="" min="1" max="4" class="iso" oninput="changeImg(this, 'iso')">
+    <input type="range" name="" min="1" value="" max="4" class="ap" oninput="changeImg(this, 'aper')">
+    <input type="range" name="" min="1" max="4" class="ss" oninput="changeImg(this, 'ss')">
+    <input type="range" name="" min="1" max="4" class="iso" oninput="changeImg(this, 'iso')">
   </div>
 
   <script type="text/javascript" src="js/tut_page.js">
