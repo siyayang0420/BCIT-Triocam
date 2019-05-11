@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 750 1334" style="enable-background:new 0 0 750 1334;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.22;}
+	.st1{fill:#A0C2E7;}
+	.st2{filter:url(#Adobe_OpacityMaskFilter);}
+	.st3{opacity:0.2;mask:url(#SVGID_1_);}
+	.st4{fill:#6286CC;}
+	.st5{fill:none;stroke:#4F7DBF;stroke-width:4;stroke-miterlimit:10;}
+	.st6{fill:#4F7DBF;}
+	.st7{font-family:'Lato-Regular';}
+	.st8{font-size:51px;}
+	.st9{fill:#FFFFFF;}
+	.st10{fill:none;stroke:#D96C6C;stroke-width:4;stroke-miterlimit:10;}
+	.st11{fill:#D96C6C;}
+	.st12{fill:none;stroke:#FFCD34;stroke-width:4;stroke-miterlimit:10;}
+	.st13{fill:#FFCD34;}
+	.st14{fill:none;stroke:#999999;stroke-width:4;stroke-miterlimit:10;}
+	.st15{fill:#999999;}
+	.st16{fill:#4D4D4D;}
+</style>
+<g id="shapes" class="st0">
+	<g>
+		<path class="st1" d="M0,221c0,0-17.5,140.1,157.5,140.1s368,0,453,0c163.3,0,170.6,360.8,2,360.8c-130,0-278.5,0-278.5,0
+			S62,698.7,62,872c0,180,105.5,186.2,168.5,186.2s272,0,397,0s122,275.8,2,275.8s-629,0-629,0"/>
+	</g>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="-0.5" y="221" width="736.5" height="1113">
+			
+				<feColorMatrix  type="matrix" values="-1 0 0 0 1  0 -1 0 0 1  0 0 -1 0 1  0 0 0 1 0" color-interpolation-filters="sRGB" result="source"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="-0.5" y="221" width="736.5" height="1113" id="SVGID_1_">
+		<g class="st2">
+			
+				<image style="overflow:visible;" width="742" height="1117" xlink:href="E38AF2AC1BCA6E45.jpg"  transform="matrix(1 0 0 1 -3 219)">
+			</image>
+		</g>
+	</mask>
+	<g class="st3">
+		<path class="st4" d="M0,221c0,0-17.5,140.1,157.5,140.1s368,0,453,0c163.3,0,170.6,360.8,2,360.8c-130,0-278.5,0-278.5,0
+			S62,698.7,62,872c0,180,105.5,186.2,168.5,186.2s272,0,397,0s122,275.8,2,275.8s-629,0-629,0"/>
+	</g>
+</g>
+<g id="AperButHover">
+	<g>
+		
+			<image style="overflow:visible;opacity:0.3;" width="670" height="250" xlink:href="E38AF2AC1BCA6E47.png"  transform="matrix(1 0 0 1 30 331)">
+		</image>
+		<g>
+			<g>
+				<path class="st5" d="M658.7,377H71.3c9.1-12.7,24-21,40.8-21h505.8C634.7,356,649.6,364.3,658.7,377z"/>
+				<path class="st5" d="M668,406.1v85.8c0,27.7-22.4,50.1-50.1,50.1H112.1C84.4,542,62,519.6,62,491.9v-85.8
+					c0-10.9,3.5-20.9,9.3-29.1h587.3C664.6,385.2,668,395.3,668,406.1z"/>
+			</g>
+		</g>
+	</g>
+	<text transform="matrix(1 0 0 1 262.6189 468.2588)" class="st6 st7 st8">Aperture</text>
+</g>
+<g id="AperBut">
+	<g>
+		
+			<image style="overflow:visible;opacity:0.3;" width="666" height="246" xlink:href="E38AF2AC1BCA6E45.png"  transform="matrix(1 0 0 1 32 333)">
+		</image>
+		<g>
+			<g>
+				<path class="st6" d="M658.7,377H71.3c9.1-12.7,24-21,40.8-21h505.8C634.7,356,649.6,364.3,658.7,377z"/>
+				<path class="st9" d="M668,406.1v85.8c0,27.7-22.4,50.1-50.1,50.1H112.1C84.4,542,62,519.6,62,491.9v-85.8
+					c0-10.9,3.5-20.9,9.3-29.1h587.3C664.6,385.2,668,395.3,668,406.1z"/>
+			</g>
+		</g>
+	</g>
+	<text transform="matrix(1 0 0 1 262.6189 468.2588)" class="st7 st8">Aperture</text>
+</g>
+<g id="SSButHover">
+	<g>
+		
+			<image style="overflow:visible;opacity:0.3;" width="670" height="250" xlink:href="E38AF2AC1BCA6E43.png"  transform="matrix(1 0 0 1 30 564)">
+		</image>
+		<g>
+			<g>
+				<path class="st10" d="M658.7,610H71.3c9.1-12.7,24-21,40.8-21h505.8C634.7,589,649.6,597.3,658.7,610z"/>
+				<path class="st10" d="M668,639.1v85.8c0,27.7-22.4,50.1-50.1,50.1H112.1C84.4,775,62,752.6,62,724.9v-85.8
+					c0-10.9,3.5-20.9,9.3-29.1h587.3C664.6,618.2,668,628.3,668,639.1z"/>
+			</g>
+		</g>
+	</g>
+	<text transform="matrix(1 0 0 1 206.9792 701.2588)" class="st11 st7 st8">Shutter Speed</text>
+</g>
+<g id="SSBut">
+	<g>
+		
+			<image style="overflow:visible;opacity:0.3;" width="666" height="246" xlink:href="E38AF2AC1BCA6E4D.png"  transform="matrix(1 0 0 1 32 566)">
+		</image>
+		<g>
+			<g>
+				<path class="st11" d="M658.7,610H71.3c9.1-12.7,24-21,40.8-21h505.8C634.7,589,649.6,597.3,658.7,610z"/>
+				<path class="st9" d="M668,639.1v85.8c0,27.7-22.4,50.1-50.1,50.1H112.1C84.4,775,62,752.6,62,724.9v-85.8
+					c0-10.9,3.5-20.9,9.3-29.1h587.3C664.6,618.2,668,628.3,668,639.1z"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 206.9792 699.2314)" class="st7 st8">Shutter Speed</text>
+	</g>
+</g>
+<g id="ISOButHover">
+	<g>
+		
+			<image style="overflow:visible;opacity:0.3;" width="670" height="250" xlink:href="E38AF2AC1BCA6E4F.png"  transform="matrix(1 0 0 1 30 797)">
+		</image>
+		<g>
+			<g>
+				<path class="st12" d="M658.7,843H71.3c9.1-12.7,24-21,40.8-21h505.8C634.7,822,649.6,830.3,658.7,843z"/>
+				<path class="st12" d="M668,872.1v85.8c0,27.7-22.4,50.1-50.1,50.1H112.1c-27.7,0-50.1-22.4-50.1-50.1v-85.8
+					c0-10.9,3.5-20.9,9.3-29.1h587.3C664.6,851.2,668,861.3,668,872.1z"/>
+			</g>
+		</g>
+	</g>
+	<text transform="matrix(1 0 0 1 323.3079 932.2314)" class="st13 st7 st8">ISO</text>
+</g>
+<g id="ISOBut">
+	<g>
+		
+			<image style="overflow:visible;opacity:0.3;" width="666" height="246" xlink:href="E38AF2AC1BCA6E42.png"  transform="matrix(1 0 0 1 32 799)">
+		</image>
+		<g>
+			<g>
+				<path class="st13" d="M658.7,843H71.3c9.1-12.7,24-21,40.8-21h505.8C634.7,822,649.6,830.3,658.7,843z"/>
+				<path class="st9" d="M668,872.1v85.8c0,27.7-22.4,50.1-50.1,50.1H112.1c-27.7,0-50.1-22.4-50.1-50.1v-85.8
+					c0-10.9,3.5-20.9,9.3-29.1h587.3C664.6,851.2,668,861.3,668,872.1z"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 323.3083 932.2314)" class="st7 st8">ISO</text>
+	</g>
+</g>
+<g id="TryButHover">
+	<g>
+		
+			<image style="overflow:visible;opacity:0.3;" width="670" height="250" xlink:href="E38AF2AC1BCA6E41.png"  transform="matrix(1 0 0 1 30 1030)">
+		</image>
+		<g>
+			<g>
+				<path class="st14" d="M658.7,1076H71.3c9.1-12.7,24-21,40.8-21h505.8C634.7,1055,649.6,1063.3,658.7,1076z"/>
+				<path class="st14" d="M668,1105.1v85.8c0,27.7-22.4,50.1-50.1,50.1H112.1c-27.7,0-50.1-22.4-50.1-50.1v-85.8
+					c0-10.9,3.5-20.9,9.3-29.1h587.3C664.6,1084.2,668,1094.3,668,1105.1z"/>
+			</g>
+		</g>
+	</g>
+	<text transform="matrix(1 0 0 1 234.8494 1165.2314)" class="st15 st7 st8">Try them all</text>
+</g>
+<g id="TryAllBut">
+	<g>
+		
+			<image style="overflow:visible;opacity:0.3;" width="666" height="246" xlink:href="E38AF2AC1BCA6E46.png"  transform="matrix(1 0 0 1 32 1032)">
+		</image>
+		<g>
+			<g>
+				<path class="st15" d="M658.7,1076H71.3c9.1-12.7,24-21,40.8-21h505.8C634.7,1055,649.6,1063.3,658.7,1076z"/>
+				<path class="st9" d="M668,1105.1v85.8c0,27.7-22.4,50.1-50.1,50.1H112.1c-27.7,0-50.1-22.4-50.1-50.1v-85.8
+					c0-10.9,3.5-20.9,9.3-29.1h587.3C664.6,1084.2,668,1094.3,668,1105.1z"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 234.8494 1165.2319)" class="st7 st8">Try them all</text>
+	</g>
+</g>
+<text transform="matrix(1 0 0 1 134.8682 202.2275)" class="st16 st7 st8">I want to learn about...</text>
+</svg>

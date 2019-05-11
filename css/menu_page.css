@@ -7,8 +7,9 @@ body {
 }
 
 
-#btn_selected_a,
-#btn_selected_ss,
-#btn_selected_iso {
+#AperButHover,
+#SSButHover,
+#ISOButHover,
+#TryButHover {
     visibility: hidden;
 }

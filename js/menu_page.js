@@ -1,11 +1,11 @@
         function showSelectedA() {
-            document.querySelector("#btn_selected_a").style.visibility = "visible";
-            document.querySelector("#btn_a").style.opacity = "0";
+            document.querySelector("#AperButHover").style.visibility = "visible";
+            document.querySelector("#AperBut").style.opacity = "0";
         }
 
         function hideSelectedA() {
-            document.querySelector("#btn_selected_a").style.visibility = "hidden";
-            document.querySelector("#btn_a").style.opacity = "1";
+            document.querySelector("#AperButHover").style.visibility = "hidden";
+            document.querySelector("#AperBut").style.opacity = "1";
         }
 
         //ss btn changed
