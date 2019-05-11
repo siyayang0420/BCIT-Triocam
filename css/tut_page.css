@@ -9,9 +9,9 @@
   animation: slideLeft 1.5s ease-in-out;
 }*/
 body {
-  margin: 0;
+  margin: auto;
+  width: 500px;
 }
-
 #page2, #page3 {
   display: none;
 }

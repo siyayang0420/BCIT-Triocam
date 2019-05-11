@@ -1,14 +1,10 @@
 /*-----TABLE OF CONTENT-----*/
 
-@import url('https://fonts.googleapis.com/css?family=Lato');
-
 body {
-    margin: 0;
+  margin: auto;
+  width: 500px;
 }
 
-
-#btn_selected_a,
-#btn_selected_ss,
-#btn_selected_iso {
-    visibility: hidden;
+#ss{
+  margin-left: 20px;
 }
