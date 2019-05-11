@@ -13,6 +13,7 @@ var ap1 = document.querySelector("#ap1"),
 
 
 var card = document.querySelector("#whiteCard");
+var lastDemo = document.querySelector("#lastDemo")
 
 function cardShow(){
   card.classList.toggle("cardShow");
@@ -133,19 +134,23 @@ function changeImg(el, type){
 function changeImgUI(val, type){
   if (type == "aper" && val == 1) {
     ap1.style.opacity = "1";
+    lastDemo.style.display = "none";
   }
   if (type == "aper" && val == 2) {
+    lastDemo.style.display = "none";
     ap2.style.opacity = "1";
     ap1.style.opacity = "0";
   }
 
   if (type == "aper" && val == 3) {
+    lastDemo.style.display = "none";
     ap3.style.opacity = "1";
     ap2.style.opacity = "0";
     ap1.style.opacity = "0";
   }
 
   if (type == "aper" && val == 4) {
+    lastDemo.style.display = "none";
     ap4.style.opacity = "1";
     ap3.style.opacity = "0";
     ap2.style.opacity = "0";
@@ -153,18 +158,22 @@ function changeImgUI(val, type){
   }
 
   if (type == "ss" && val == 1) {
+    lastDemo.style.display = "none";
     ang1.style.opacity = "1"
   }
   if (type == "ss" && val == 2) {
+    lastDemo.style.display = "none";
     ang2.style.opacity = "1"
     ang1.style.opacity = "0"
   }
   if (type == "ss" && val == 3) {
+    lastDemo.style.display = "none";
     ang3.style.opacity = "1"
     ang2.style.opacity = "0"
     ang1.style.opacity = "0"
   }
   if (type == "ss" && val == 4) {
+    lastDemo.style.display = "none";
     ang4.style.opacity = "1"
     ang2.style.opacity = "0"
     ang1.style.opacity = "0"
@@ -172,12 +181,16 @@ function changeImgUI(val, type){
   }
 
   if (type == "iso" && val == 1) {
-    isoImg.style.opacity = "1"
+    lastDemo.style.display = "none";
+    isoImg.style.opacity = "0.8"
   } else if (type == "iso" && val == 2) {
+    lastDemo.style.display = "none";
     isoImg.style.opacity = "0.7"
   } else if(type == "iso" & val == 3) {
+    lastDemo.style.display = "none";
     isoImg.style.opacity = "0.5"
   } else if(type == "iso" & val == 4) {
+    lastDemo.style.display = "none";
     isoImg.style.opacity = "0"
   }
 
