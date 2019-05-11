@@ -1,3 +1,9 @@
+var card = document.querySelector("#whiteCard");
+
+function cardShow(){
+  card.classList.toggle("cardShow");
+}
+
 var nextBut = document.querySelector('#arrowRight'),
     prevBut = document.querySelector('#arrowLeft'),
     page1 = document.querySelector('#page1'),
