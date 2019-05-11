@@ -1,31 +1,42 @@
         function showSelectedA() {
             document.querySelector("#AperButHover").style.visibility = "visible";
-            document.querySelector("#AperBut").style.opacity = "0";
+            document.querySelector("#AperBut").style.visibility = "hidden";
         }
 
         function hideSelectedA() {
             document.querySelector("#AperButHover").style.visibility = "hidden";
-            document.querySelector("#AperBut").style.opacity = "1";
+            document.querySelector("#AperBut").style.visibility = "visible";
         }
 
         //ss btn changed
         function showSelectedSS() {
-            document.querySelector("#btn_selected_ss").style.visibility = "visible";
-            document.querySelector("#btn_ss").style.opacity = "0";
+            document.querySelector("#SSButHover").style.visibility = "visible";
+            document.querySelector("#SSBut").style.visibility = "hidden";
         }
 
         function hideSelectedSS() {
-            document.querySelector("#btn_selected_ss").style.visibility = "hidden";
-            document.querySelector("#btn_ss").style.opacity = "1";
+            document.querySelector("#SSButHover").style.visibility = "hidden";
+            document.querySelector("#SSBut").style.visibility = "visible";
         }
 
         //change iso
         function showSelectedISO() {
-            document.querySelector("#btn_selected_iso").style.visibility = "visible";
-            document.querySelector("#btn_iso").style.opacity = "0";
+            document.querySelector("#ISOButHover").style.visibility = "visible";
+            document.querySelector("#ISOBut").style.visibility = "hidden";
         }
 
         function hideSelectedISO() {
-            document.querySelector("#btn_selected_iso").style.visibility = "hidden";
-            document.querySelector("#btn_iso").style.opacity = "1";
+            document.querySelector("#ISOButHover").style.visibility = "hidden";
+            document.querySelector("#ISOBut").style.visibility = "visible";
+        }
+
+        //change try all btn
+        function showSelectedTry() {
+            document.querySelector("#TryButHover").style.visibility = "visible";
+            document.querySelector("#TryAllBut").style.visibility = "hidden";
+        }
+
+        function hideSelectedTry() {
+            document.querySelector("#TryButHover").style.visibility = "hidden";
+            document.querySelector("#TryAllBut").style.visibility = "visible";
         }
