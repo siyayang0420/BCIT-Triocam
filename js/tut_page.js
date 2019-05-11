@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 var ap1 = document.querySelector("#ap1"),
@@ -10,6 +11,13 @@ var ap1 = document.querySelector("#ap1"),
     ang3 = document.querySelector("#ang3"),
     ang4 = document.querySelector("#ang4");
 
+=======
+var card = document.querySelector("#whiteCard");
+
+function cardShow(){
+  card.classList.toggle("cardShow");
+}
+>>>>>>> 007645486f96626fd80a253b1dd22a98f184f243
 
 var nextBut = document.querySelector('#arrowRight'),
     prevBut = document.querySelector('#arrowLeft'),

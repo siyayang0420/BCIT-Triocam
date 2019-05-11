@@ -5,6 +5,15 @@ body {
   width: 500px;
 }
 
+<<<<<<< HEAD
 #ss{
   margin-left: 20px;
+=======
+
+#AperButHover,
+#SSButHover,
+#ISOButHover,
+#TryButHover {
+    visibility: hidden;
+>>>>>>> 007645486f96626fd80a253b1dd22a98f184f243
 }

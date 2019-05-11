@@ -1,13 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
-/*@keyframes slideLeft {
-  0% { left: 0;}
-  100%{ left : 100%;}
-}
 
-#text_card_1 {
-  animation: slideLeft 1.5s ease-in-out;
-}*/
+
 body {
   margin: auto;
   width: 500px;
@@ -79,4 +73,16 @@ body{
 .btn_hide {
   opacity: 0;
   transition-duration: 0.5s;
+}
+
+.cardSlide {
+  display: none;
+  transition-duration: 0.2s;
+  transform: translateY(50px);
+}
+
+.cardShow {
+  display: block;
+  transition-duration: 0.8s;
+  transform: translateY(0px);
 }
