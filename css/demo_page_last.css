@@ -162,7 +162,7 @@ input[type=range].ap::-webkit-slider-thumb {
 }
 
 input[type=range].ss::-webkit-slider-runnable-track {
-  margin-top: -345px;
+  margin-top: -330px;
   width: 100%;
   height: 10px;
   border: none;
@@ -182,7 +182,7 @@ input[type=range].ss::-webkit-slider-thumb {
 }
 
 input[type=range].iso::-webkit-slider-runnable-track {
-  margin-top: -185px;
+  margin-top: -200px;
   width: 100%;
   height: 10px;
   border: none;
