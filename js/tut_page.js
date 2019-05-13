@@ -182,13 +182,13 @@ function changeImgUI(val, type){
 
   if (type == "iso" && val == 1) {
     lastDemo.style.display = "none";
-    isoImg.style.opacity = "0.8"
+    isoImg.style.opacity = "0.5"
   } else if (type == "iso" && val == 2) {
     lastDemo.style.display = "none";
-    isoImg.style.opacity = "0.7"
+    isoImg.style.opacity = "0.3"
   } else if(type == "iso" & val == 3) {
     lastDemo.style.display = "none";
-    isoImg.style.opacity = "0.5"
+    isoImg.style.opacity = "0.2"
   } else if(type == "iso" & val == 4) {
     lastDemo.style.display = "none";
     isoImg.style.opacity = "0"
