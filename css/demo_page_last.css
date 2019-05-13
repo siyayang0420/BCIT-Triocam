@@ -141,7 +141,7 @@ input{
 }
 
 input[type=range].ap::-webkit-slider-runnable-track {
-  margin-top: -430px;
+  margin-top: -550px;
   width: 100%;
   height: 10px;
   border: none;
@@ -161,7 +161,7 @@ input[type=range].ap::-webkit-slider-thumb {
 }
 
 input[type=range].ss::-webkit-slider-runnable-track {
-  margin-top: -310px;
+  margin-top: -375px;
   width: 100%;
   height: 10px;
   border: none;
@@ -181,7 +181,7 @@ input[type=range].ss::-webkit-slider-thumb {
 }
 
 input[type=range].iso::-webkit-slider-runnable-track {
-  margin-top: -180px;
+  margin-top: -200px;
   width: 100%;
   height: 10px;
   border: none;
