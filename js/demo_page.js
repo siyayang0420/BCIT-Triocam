@@ -4,7 +4,7 @@ var input = document.querySelector("input");
 
 var backBtn =  document.querySelector(".backBtn");
 var homeBtn =  document.querySelector(".homeBtn");
-var hamBtn = document.querySelector("#ham")
+var hamBtn = document.querySelector("#ham");
 function showMenu() {
  backBtn.classList.toggle("backBtnMove");
  homeBtn.classList.toggle("homeBtnMove");
