@@ -1,6 +1,5 @@
 body {
-  margin: auto;
-  width: 400px;
+  margin: 0;
 }
 .ham {
     transition-duration: 0.6s;
